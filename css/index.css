@@ -108,9 +108,10 @@ h1, h2, h3, h4, h5 {
     flex-wrap: nowrap;
     flex-direction: column;
 }
-.top-content div {
-	width: 100%;
+.features {
+	width: 500px;
 }
+
 .bottom-content {
 	width: 500px;
     display: flex;
@@ -119,12 +120,15 @@ h1, h2, h3, h4, h5 {
 
 .bottom-content div {
 	width: 100%;
-    padding: 10px;
-    flex-wrap: nowrap;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    width: 100%;
 }
-
+}
 
 
 
